@@ -13,7 +13,6 @@ def sigmoid(x):
 def sigmoid_derivative(x):
     return x * (1 - x)
 
-
 # The training set, with 4 examples consisting of 3
 # input values and 1 output value
 training_inputs = np.array([[0,0,1],
